@@ -17,7 +17,7 @@
 netsh
 ```
 
-### 2.3 netshプロンプトにて、下記コマンドを実行
+### 2.3 netshプロンプトにて、下記コマンドを実行し、netsh winhttpプロンプトを起動
 ```console:console
 winhttp
 ```
@@ -43,7 +43,7 @@ proxy_servers:
     http: http://（調べたドメイン）:（調べたポート番号）
     https: https://（調べたドメイン）:（調べたポート番号）
 ```
-以下、書き方の例
+以下、書き方の例。
 ```python
 proxy_servers:
     http: http://temp.co.jp:0000
@@ -53,7 +53,7 @@ proxy_servers:
 ### 3.4 以下コマンドを Anaconda Prompt で実行
 プロキシ設定が反映されたか確認できます。
 
-Anaconda Prompt もタスクバーの🔎マークから検索すると見つかります。
+Anaconda Prompt もタスクバーから検索すると見つかります。
 ```console:console
 conda config --show
 ```
