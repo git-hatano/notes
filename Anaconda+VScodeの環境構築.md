@@ -147,10 +147,9 @@ C:\Path\to\anaconda3\py36\Library\bin
 ## 7. VScodeの設定
 
 ### 7.1 VScodeの左下の歯車マークから設定を選択
+"設定の検索" から "Python: Python Path" を選択
 
-### 7.2 "設定の検索" から "Python: Python Path" を選択
-
-### 7.3 利用する仮想環境の "python.exe" までのパスを記入
+### 7.2 利用する仮想環境の "python.exe" までのパスを記入
 ```
 C:\Path\to\anaconda3\（仮想環境名）\python.exe
 ```
