@@ -121,8 +121,7 @@ Anaconda Navigator はタスクバーから検索すると見つかります。
 ### 5.5 "環境変数" を選択
 
 ### 5.6 変数内の "Path" を編集
-
-### 5.7 以下のパスを "環境変数名" の編集に追加
+以下のパスを "環境変数名" の編集に追加
 ```
 C:\Path\to\anaconda3\（仮想環境名）
 C:\Path\to\anaconda3\（仮想環境名）\Scripts
@@ -134,8 +133,9 @@ C:\Path\to\anaconda3\py36
 C:\Path\to\anaconda3\py36\Scripts
 C:\Path\to\anaconda3\py36\Library\bin
 ```
-### 5.8 OKでウィンドウを閉じる
-☓でウィンドウを閉じると環境変数の変更が反映されない。
+記入したらOKでウィンドウを閉じる。
+
+☓ボタンでウィンドウを閉じると環境変数の変更が反映されない。
 
 ## 6. VScode のインストール
 以下サイトから、Windows用のインストーラーをダウンロード。
