@@ -46,6 +46,15 @@ df.iloc[row, col] = data
 df['col'] = df['col']*2
 ```
 
+### 特定の列を抽出
+```python
+# 1列のとき
+df = df['col1']
+
+# 2列のとき
+df = df[['col1', 'col2']]
+```
+
 ### dfに新しい列を追加し、初期化
 ```python
 df['new_col'] = None
