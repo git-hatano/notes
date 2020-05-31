@@ -1,14 +1,5 @@
-# Pandas でよく使う操作 2
+# Pandas で使えそうな操作
 
-## 初めに
-```python
-import pandas as pd
-```
-
-## csvの読み込み
-```python
-df = pd.read_csv('input.csv')
-```
 
 ### for 文を使わずに、各要素に関数を適用
 組み込み関数、自作関数どちらも可能
@@ -26,8 +17,8 @@ def add_seven(num1, num2):
 df["column_name"] = df["column_name"].map(lambda x: add_zero(x, 7))
 ```
 
-### numpyの配列は、そのままDataFrameに代入可能
-代入先のdfと同じ、行数である必要
+### numpy配列は、DataFrameにそのまま代入可能
+代入先のdfと同じ、行数である必要?
 ```python
 df["numpy_array"] = np.array([1,2,3,4])
 ```
