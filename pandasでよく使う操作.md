@@ -16,10 +16,10 @@ print(df.head())
 print(df.head(3))
 ```
 
-### 列名，行名を表示
+### 列名，行名をリスト形式で取得
 ```python
-print(df.index)
-print(df.columns)
+indexs_list = df.index
+columns_list = df.columns
 ```
 
 ### 各列のデータ型を取得
