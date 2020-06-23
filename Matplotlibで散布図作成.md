@@ -37,12 +37,10 @@ def plot_scatter_2d(df, out_path):
     ax.scatter(data_array[data_array[:, LABEL]==POSITIVE][:,INDEX_X],
                data_array[data_array[:, LABEL]==POSITIVE][:,INDEX_Y],
                alpha=0.1, c="red", label="Positive")
-    )
     # NEGATIVE
     ax.scatter(data_array[data_array[:, LABEL]==NEGATIVE][:,INDEX_X],
                data_array[data_array[:, LABEL]==NEGATIVE][:,INDEX_Y],
                alpha=0.1, c="blue", label="Negative")
-    )
 
     # 書式の設定
     ax.set_title("Scatter plot 2D")
@@ -87,14 +85,11 @@ def plot_scatter_3d(df, out_path):
                 ys=data_array[data_array[:, LABEL]==POSITIVE][:,INDEX_Y],
                 zs=data_array[data_array[:, LABEL]==POSITIVE][:,INDEX_Z],
                 alpha=0.1, c="red", label="Positive")
-    )
     # NEGATIVE
     ax1.scatter(xs=data_array[data_array[:, LABEL]==NEGATIVE][:,INDEX_X],
                 ys=data_array[data_array[:, LABEL]==NEGATIVE][:,INDEX_Y],
                 zs=data_array[data_array[:, LABEL]==NEGATIVE][:,INDEX_Z],
                 alpha=0.1, c="blue", label="Negative")
-    )
-
     # 書式の設定
     ax1.set_title("Scatter plot 3D")
     ax1.set_xlabel("x", color="red")
@@ -110,12 +105,10 @@ def plot_scatter_3d(df, out_path):
     ax2.scatter(data_array[data_array[:, LABEL]==POSITIVE][:,INDEX_X],
                 data_array[data_array[:, LABEL]==POSITIVE][:,INDEX_Y],
                 alpha=0.1, c="red", label="Positive")
-    )
     # NEGATIVE
     ax2.scatter(data_array[data_array[:, LABEL]==NEGATIVE][:,INDEX_X],
                 data_array[data_array[:, LABEL]==NEGATIVE][:,INDEX_Y],
                 alpha=0.1, c="blue", label="Negative")
-    )
     # 書式の設定
     ax2.set_xlabel("x", color="red")
     ax2.set_ylabel("y", color="red")
@@ -129,12 +122,10 @@ def plot_scatter_3d(df, out_path):
     ax3.scatter(data_array[data_array[:, LABEL]==POSITIVE][:,INDEX_X],
                 data_array[data_array[:, LABEL]==POSITIVE][:,INDEX_Z],
                 alpha=0.1, c="red", label="Positive")
-    )
     # NEGATIVE
     ax3.scatter(data_array[data_array[:, LABEL]==NEGATIVE][:,INDEX_X],
                 data_array[data_array[:, LABEL]==NEGATIVE][:,INDEX_Z],
                 alpha=0.1, c="blue", label="Negative")
-    )
     # 書式の設定
     ax3.set_xlabel("x", color="red")
     ax3.set_ylabel("z", color="red")
@@ -148,12 +139,10 @@ def plot_scatter_3d(df, out_path):
     ax4.scatter(data_array[data_array[:, LABEL]==POSITIVE][:,INDEX_Y],
                 data_array[data_array[:, LABEL]==POSITIVE][:,INDEX_Z],
                 alpha=0.1, c="red", label="Positive")
-    )
     # NEGATIVE
     ax4.scatter(data_array[data_array[:, LABEL]==NEGATIVE][:,INDEX_Y],
                 data_array[data_array[:, LABEL]==NEGATIVE][:,INDEX_Z],
                 alpha=0.1, c="blue", label="Negative")
-    )
     # 書式の設定
     ax4.set_xlabel("y", color="red")
     ax4.set_ylabel("z", color="red")
