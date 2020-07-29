@@ -17,9 +17,14 @@ df = pd.read_csv('input.csv')
 df = pd.read_csv('input.csv', header=None)
 ```
 
-csvに日本語を含む場合
+csv の中身に日本語を含む場合
 ```python
 df = pd.read_csv('input.csv', encoding='SHIFT-JIS')
+```
+
+ファイル名のパスに日本語を含む場合（日本語を含んでもエラーでない場合もある）
+```python
+df = pd.read_csv('入力.csv', engine='python')
 ```
 
 列数が行によって一定ではない場合
